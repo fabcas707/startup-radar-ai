@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.*
+*.key
+*api_key*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data downloads and local databases
+data/raw/
+*.duckdb
+*.duckdb.wal
