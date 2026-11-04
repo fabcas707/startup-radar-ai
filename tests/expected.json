@@ -1,0 +1,538 @@
+[
+  {
+    "post_id": 50338792,
+    "link": "https://news.ycombinator.com/item?id=50338792",
+    "post": [
+      "Shepherd (Series B) | ONSITE | San Francisco, CA",
+      "At Shepherd, we're pursuing the most ambitious technical vision in commercial insurance: fully autonomous underwriting. Shepherd is an AI-native commercial insurance platform transforming how high-hazard industries get covered.",
+      "The infrastructure behind the AI boom (data centers, semiconductor fabs, renewable energy assets) has to be built and insured, but traditional carriers weren't built for this speed. We built Shepherd to solve that.",
+      "We announced our $42M Series B earlier this year! That brings our total funding to over $60M — led by Intact Private Capital, the investment arm of one of the largest insurers in the world. Intact is not only our lead investor but also a carrier partner, a testament to the confidence the incumbent industry has in what we're building.",
+      "We’re looking for product-minded, high ownership engineers to join our team! The Engineering team is HQ’d in SF, but we’re growing in NYC now too!",
+      "We’re hiring for 2 Senior SWEs, 1 MLE and 1 AI PM in SF, and 2 Staff SWEs in NYC. Engineers own projects end-to-end so full stack ability is expected.",
+      "Check out our open roles here: https://shepherdinsurance.com/careers",
+      "Our stack includes: Typescript, React, Next.js, GraphQL w/ Apollo, Node.js, Postgres & Redis",
+      "– If you have experience building AI agents or multi-step reasoning systems, we’d love to hear from you.",
+      "* In the form, be sure to mention that you heard about this opportunity via Hacker News.",
+      "If you want to read more about our team and culture, check out our blog: https://shepherdinsurance.com/blog"
+    ],
+    "checked": true,
+    "notes": "Shepherd: remote 'no' is right. Uruguay 'not stated' is acceptable, since the post doesn't say it directly, but onsite is enough to deduce 'no'.",
+    "expected": {
+      "company": "Shepherd",
+      "roles": [
+        {
+          "title": "Senior Software Engineer (2 openings, SF)",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "MLE (1 opening, SF)",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "AI PM (1 opening, SF)",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Staff Software Engineer (2 openings, NYC)",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "no",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50338736,
+    "link": "https://news.ycombinator.com/item?id=50338736",
+    "post": [
+      "Synteq | Growth Lead & Systems Administrator | Austin, TX | REMOTE (US) | Full-time",
+      "Synteq is a developer cloud running our own hardware and network. We do large-scale bare-metal, GPU, VPS, storage, and PaaS deployments across 5 US datacenters.",
+      "- Growth Lead: own top of funnel for a developer cloud product, covering SEO, community, PLG, and partnerships. Open to people new to growth or with some experience. https://synteq.com/career/growth-lead",
+      "- Systems Administrator: Proxmox hypervisors, networking, physical builds, Ceph, and bare metal. Ideally 2–15 YOE. https://synteq.com/career/systems-administrator",
+      "Small, close-knit team that takes on hard problems. We've grown a lot this past year and there's much more ahead. Come build it with us."
+    ],
+    "checked": true,
+    "notes": "Synteq: remote 'yes', but only in the US; a false positive if remote alone is used.",
+    "expected": {
+      "company": "Synteq",
+      "roles": [
+        {
+          "title": "Growth Lead",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Systems Administrator",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "no"
+    }
+  },
+  {
+    "post_id": 50338768,
+    "link": "https://news.ycombinator.com/item?id=50338768",
+    "post": [
+      "University of Cambridge, University of Manchester | PhD in AI / Earth Observation / Environmental Science | ONSITE | UK home fee status only | £30k tax-free annual stipend",
+      "Our group at Cambridge works on Earth Observation foundation models (Tessera: v1 https://arxiv.org/abs/2506.20380, v2 https://arxiv.org/abs/2607.03949, https://geotessera.org/) and we've started a collaboration with Manchester to understand how they can be used to improve pollution models and then environmental decision making in general. This involves training new models and doing high-resolution inference across national or even global scales, as well as figuring out how to use that data to help policymakers make better decisions.",
+      "As part of this work we have a PhD studentship through the joint Manchester-Cambridge Centre for Doctoral Training for AI in Decision Making for Complex Systems. This involves one year at Manchester doing taught postgraduate study and then three years at Cambridge for the PhD.",
+      "Our work is all open source and involves solving significant compute and data challenges. Training our current-generation model takes ~250k GPU hours and a single year of global inference needs to move over 5.5 petabytes of data through the inference pipeline. This project would suit someone with strong machine learning and software engineering experience. We can help you build the atmospheric science and Earth Observation skills.",
+      "We are a highly collaborative group who spend our time not only on foundational research but also on developing applications with practitioners and decision makers. Our work sees use in many industrial, academic and government environments for problems like crop classification, tree species mapping and change detection.",
+      "You can find out more here: https://www.findaphd.com/phds/project/from-satellite-to-stre... - if you have questions about the project you can contact me, Sadiq Jaffer, at sj514@cam.ac.uk . For questions about the application process you'll want aidecisionscdt@manchester.ac.uk .",
+      "Application deadline is Friday 4th of December with a course start date of September 2027."
+    ],
+    "checked": true,
+    "notes": "Cambridge: is_fde_or_ai true is right by the definition, but a false positive for my profile (a PhD).",
+    "expected": {
+      "company": "University of Cambridge, University of Manchester",
+      "roles": [
+        {
+          "title": "PhD studentship in AI / Earth Observation / Environmental Science (joint Manchester-Cambridge Centre for Doctoral Training for AI in Decision Making for Complex Systems)",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "no",
+      "uruguay_allowed": "no"
+    }
+  },
+  {
+    "post_id": 50338732,
+    "link": "https://news.ycombinator.com/item?id=50338732",
+    "post": [
+      "Simple Analytics | DevOps Engineer | REMOTE (worldwide, any timezone) | Full-time, 32h, 24h possible | €5,000/month (full-time) | https://www.simpleanalytics.com/jobs/devops",
+      "Hi HN, I'm Adriaan. Simple Analytics exists thanks to HN: it started with my Show HN in 2018 [1]. Today we're a self-funded, profitable team of four building privacy-first analytics.",
+      "Privacy is why we run our own bare-metal servers instead of the cloud. We're preparing for a LOT more traffic, and you'll own the infrastructure and its reliability. We have good documentation. First project: leading the infra side of our Elasticsearch to ClickHouse migration, with Alex, our developer.",
+      "Stack: Ansible, OpenTofu, Docker Compose, Grafana, GitHub Actions, TypeScript. Clear async communication matters more than knowing every tool.",
+      "You can apply from your terminal:",
+      "  curl https://www.simpleanalytics.com/jobs/devops.md",
+      "[1] https://news.ycombinator.com/item?id=18024277"
+    ],
+    "checked": true,
+    "notes": "",
+    "expected": {
+      "company": "Simple Analytics",
+      "roles": [
+        {
+          "title": "DevOps Engineer",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "yes"
+    }
+  },
+  {
+    "post_id": 50341662,
+    "link": "https://news.ycombinator.com/item?id=50341662",
+    "post": [
+      "Reducto | Multiple Engineering Roles | San Francisco | ONSITE | Full-time | 200k - 325k + Equity | https://reducto.ai",
+      "Reducto is the agentic document platform for leading AI teams who need enterprise performance at scale. Most of the world's important information is locked in documents: PDFs, spreadsheets, scanned forms, financial filings. We build the infrastructure that lets AI read and work with them the way a human would, combining custom in-house models with leading frontier models to power accurate, efficient document workflows.",
+      "Our customers include AI teams like Harvey, Vanta, and Scale, along with enterprises across FAANG and top trading firms. We've grown revenue 8x year over year, partnered with hundreds of companies, and raised over $100M from a16z, Benchmark, and First Round Capital.",
+      "We're still a small team, so every engineer has outsized ownership. You'll work directly with customers and leadership, ship quickly, and solve hard problems across ML, infrastructure, and product that directly shape how AI systems understand the world's documents. We're in person in SF, with free daily lunch, unlimited PTO, generous health coverage, transportation reimbursement, and a monthly wellness budget.",
+      "Open roles:",
+      "- Forward Deployed Engineer",
+      "- Product Engineer",
+      "- ML Engineer",
+      "- Head of Product Engineering",
+      "- Many More!",
+      "Apply here: [https://jobs.ashbyhq.com/reducto?utm_source=Qp0OepaMn9]"
+    ],
+    "checked": true,
+    "notes": "Reducto: correct.",
+    "expected": {
+      "company": "Reducto",
+      "roles": [
+        {
+          "title": "Forward Deployed Engineer",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Product Engineer",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "ML Engineer",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Head of Product Engineering",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "no",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50342990,
+    "link": "https://news.ycombinator.com/item?id=50342990",
+    "post": [
+      "Middesk | Full-time | SF / NYC | Hybrid | https://www.middesk.com/",
+      "Middesk helps companies figure out who’s actually behind a business. Banks, fintechs, and platforms rely on us to get that answer fast and accurate before they issue a card, fund a merchant, or open an account.",
+      "We pull data from hundreds of government agencies, resolve it into a single view of a business, and serve it through an API. Business verification is becoming core infrastructure connecting businesses, banks, and governments, and that’s what we’re building. And our engineers build with AI every day. Earlier this year, agents helped us refactor our entire data pipeline.",
+      "Middesk is a Series B company backed by Sequoia and Accel, came out of YC, and was recently named to Forbes’ Fintech 50. We’re looking for folks who like getting close to customers and turning that context into product decisions.",
+      "Open roles:",
+      "Forward Deployed Engineer ($148K – $255K) — NYC or SF, hybrid (2x/week in office) Apply here —> https://jobs.ashbyhq.com/middesk/a72b1048-1001-49b1-92bd-9c4...",
+      "(Senior) Software Engineer ($148K – $250K) — NYC or SF, hybrid (2x/week in office) Apply here —> https://jobs.ashbyhq.com/middesk/e1c6af86-dce1-495f-a710-ad3...",
+      "Data Scientist ($175K – $210K) — NYC or SF, hybrid (2x/week in office) Apply here —> https://jobs.ashbyhq.com/middesk/f0da59d3-43fa-460b-88ea-4fc...",
+      "Lead Data Scientist ($210K – $250K) — NYC or SF, hybrid (2x/week in office) Apply here —> https://jobs.ashbyhq.com/middesk/7fd5aeb2-c33c-4f0a-ad3d-216...",
+      "Software Engineer, Infrastructure ($148K – $230K) — SF, hybrid (2x/week in office) Apply here —> https://jobs.ashbyhq.com/middesk/aed2c535-cd58-4920-9618-a0c..."
+    ],
+    "checked": true,
+    "notes": "Middesk: false positive; hybrid (2x/week in the office, SF or NYC).",
+    "expected": {
+      "company": "Middesk",
+      "roles": [
+        {
+          "title": "Forward Deployed Engineer",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "(Senior) Software Engineer",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Data Scientist",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Lead Data Scientist",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Software Engineer, Infrastructure",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "hybrid",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50353641,
+    "link": "https://news.ycombinator.com/item?id=50353641",
+    "post": [
+      "Special | Forward Deployed Engineer | NYC | Full-Time | $200-300K + equity",
+      "Ex-DOGE team transforming critical American industries with AI. Backed by a16z, Human Capital, Brian Armstrong, Shyam Sankar, and Antonio Gracias.",
+      "Apply + vision: special.co/careers + special.co/vision"
+    ],
+    "checked": true,
+    "notes": "Special: remote 'not stated' is the safest answer (it says NYC; expected behaviour).",
+    "expected": {
+      "company": "Special",
+      "roles": [
+        {
+          "title": "Forward Deployed Engineer",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "not stated",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50344816,
+    "link": "https://news.ycombinator.com/item?id=50344816",
+    "post": [
+      "Silkline | Software Engineer, Deployment Strategist | Chicago, Seattle | ONSITE | $150k-$225k + equity | https://silkline.ai",
+      "PO #HN-2611",
+      "  Supplier:  you",
+      "  Line 1:    Software Engineer        qty 1",
+      "  Line 2:    Deployment Strategist    qty 1",
+      "  Need-by:   yesterday",
+      "  Status:    AWAITING SUPPLIER ACK",
+      "Every hardware buyer knows this PO. It goes out, and then nothing happens: no ack, no ship date, just chasing over email while the spreadsheet and the ERP disagree. Silkline is the AI operating system for procurement at companies building satellites, launch vehicles, reactors, and robots (Machina Labs, Astranis, K2 Space, Castelion, Antares). We 5x'd our customer base, and our customers' parts can't wait.",
+      "- Software Engineer/FDE: 5+ yrs full-stack, 0-1 product, fast with APIs (bonus: ERPs). TypeScript, React, Next.js, GraphQL, Trigger.dev. https://jobs.gem.com/silkline/am9icG9zdDrLwsEQTKKa02Ut_F9kgz...",
+      "- Deployment Strategist (new): own customers from signed contract to go-live. Map ERP/PLM/MES data into Silkline, write the SQL, and find out why the PO isn't syncing. Two paths in: ERP/MES implementer or forward-deployed engineer. 4+ years; travel to customer sites. https://jobs.gem.com/silkline",
+      "Both roles touch ITAR-controlled data: US persons only, no visa sponsorship. Small team, direct line to the founders (Isaac and me), plus a space-suited mascot named Silky.",
+      "Be the supplier who actually acks. Apply above, or email brent+hn@silkline.ai with \"PO #HN-2611 ACK\" in the subject (mention HN)."
+    ],
+    "checked": true,
+    "notes": "",
+    "expected": {
+      "company": "Silkline",
+      "roles": [
+        {
+          "title": "Software Engineer / FDE",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Deployment Strategist",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "no",
+      "uruguay_allowed": "no"
+    }
+  },
+  {
+    "post_id": 50356058,
+    "link": "https://news.ycombinator.com/item?id=50356058",
+    "post": [
+      "Estuary | US-Based / Remote | Full-time – https://estuary.dev/",
+      "Estuary is a VC-backed, post–Series A startup powering real-time data replication and transform — from sub-second CDC replication to terabyte-scale OLAP data flows. We’re open-source, developer-first, and focused on making data movement radically simpler across both our Platform and Applications layers.",
+      "We’re hiring for:",
+      "Head of Engineering — Own the engineering function end-to-end as a partner to our founder CTO: strategy, people, delivery, and operations across a compact but high-leverage team. You’ll grow the leaders already running our teams, set technical strategy jointly with the CTO, and be accountable for what engineering ships and what it costs.",
+      "Senior Systems Engineer (Control & Data Plane) — Build the high-performance backbone of our platform: the orchestration, distributed state, and stream transport that keep pipelines at sub-second latency under massive throughput. You’ll work primarily in Rust on fault tolerance, consensus, and networking, and help set the bar for correctness and performance across the team.",
+      "Product Manager — Own product areas end-to-end, working closely with engineering and design to shape the roadmap and deliver a great developer experience. Engage with users, translate real-world use cases into product decisions, and help define how modern data infrastructure should feel to build with.",
+      "Head of Product Marketing — Lead product marketing as we bring real-time, agent-ready data pipelines to technical buyers, partnering closely with our Head of Marketing, Developer Relations, and the founders. Own positioning, messaging, launches, and competitive narrative, turning what our engineers ship into stories data teams actually care about.",
+      "Solutions Engineer — Partner with sales and customers from the first technical call through production, running discovery, demos, and proofs of concept for data engineering and platform teams. You’ll design CDC, streaming, and batch pipelines on Estuary, solve real integration problems hands-on, and feed what you learn back to Product and Engineering.",
+      "Customer Success Manager — Own the post-sale relationship for our data engineering and platform customers as our first CS hire. You’ll build onboarding, account health monitoring, and the expansion playbook from scratch while staying technical enough to resolve most issues yourself.",
+      "Senior Compliance Engineer — Own our GDPR and PCI DSS programs while keeping our audited SOC 2 and HIPAA programs running smoothly, alongside hands-on ownership of identity, endpoint, and SaaS estate management. This is a governance-first role for someone who has run a compliance program end-to-end, not just contributed to one.",
+      "What we’re looking for: People who care about building reliable, maintainable systems and processes and enjoy working with complex APIs, data flows, or customer relationships. We value curiosity, clear communication, and a willingness to learn.",
+      "Bonus points for experience with CDC tools, open source contributions, or fast-paced startups.",
+      "To apply: Email your resume to careers@estuary.dev"
+    ],
+    "checked": true,
+    "notes": "Estuary: Uruguay is stated and is 'no' (US-based). Haiku said 'not stated'.",
+    "expected": {
+      "company": "Estuary",
+      "roles": [
+        {
+          "title": "Head of Engineering",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Senior Systems Engineer (Control & Data Plane)",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Product Manager",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Head of Product Marketing",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Solutions Engineer",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Customer Success Manager",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Senior Compliance Engineer",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "no"
+    }
+  },
+  {
+    "post_id": 50340600,
+    "link": "https://news.ycombinator.com/item?id=50340600",
+    "post": [
+      "Distru (https://www.distru.com) | AI Product Engineer | AI Product Manager | VP of Product (AI focus) | REMOTE (Americas & Europe) | Full-Time",
+      "Distru is the #1 ERP in the cannabis industry. $3.5B in annual GMV flows through our platform, and most of the top cannabis brands and distributors in the US run their entire operation on us to stay compliant.",
+      "We're profitable, stable, and growing. No runway anxiety, and we're reinvesting deeply into our AI transformation. We are building our product into an AI first ERP with a headless suite, MCP, unified data layer, and agents built for commerce. AI is at an inflection point for enterprise use cases and the System of Record (SOR) has never been more valuable. We want to build the best all in one AI stack for commerce operations.",
+      "We are investing in our internal AI transformation with premium accounts for Claude, ChatGPT, and Cursor/Grok. We encourage people to go to AI conferences + use budget to experiment with AI.",
+      "We're an intrinsically motivated team that works without ego, is constantly learning, and genuinely cares about our people (5/5 on Glassdoor). We take a lot of pride in our human first culture. AI is cool, but people are cooler.",
+      "The roles: We're looking for technically minded builders in all of our roles. You'll own mission-critical parts of the AI product suite end to end, from planning and design through implementation, testing, and shipping. You will be on the front lines of experimenting with new product experiences built with AI. Implementing new tooling + infrastructure to help scale our agents and ensure consistency.",
+      "Stack: React + TypeScript, Elixir/Phoenix + GraphQL, PostgreSQL, React Native, LangGraph, Python",
+      "Please apply at https://distru.com/careers and mention Hacker News!"
+    ],
+    "checked": true,
+    "notes": "",
+    "expected": {
+      "company": "Distru",
+      "roles": [
+        {
+          "title": "AI Product Engineer",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "AI Product Manager",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "VP of Product (AI focus)",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "yes"
+    }
+  },
+  {
+    "post_id": 50341833,
+    "link": "https://news.ycombinator.com/item?id=50341833",
+    "post": [
+      "Evaboot | Agentic Python Engineer | REMOTE worldwide | Full-time | $60-120K USD/year",
+      "Evaboot turns LinkedIn Sales Navigator searches into clean, verified prospecting lists. Demo: https://www.youtube.com/watch?v=khYgyDlo2Iw",
+      "Bootstrapped, $2.2M+ ARR, team of 5, remote since day one.",
+      "What we're doing: building agentic products, workflows and architectures.",
+      "Agentic products you'll work on: SDR agent (sales navigator agent, emailing outreach agent).",
+      "Agentic workflows you'll build: coding, support, SEO & content, acquisition automations, and analytics.",
+      "Agentic architectures you'll work on: company-wide systems, memory, tooling, security, and evaluations.",
+      "You will work directly with me (co-founder & CEO).",
+      "Requirements: strong Python engineering, power user of agentic coding, strong architectural thinking.",
+      "Bonus points: AWS deployment & infrastructure, Langfuse for observability & evaluations.",
+      "What's guaranteed: intense execution pace & exponential learning curve. Zero bullshit environment, we focus mostly on results and KPIs.",
+      "Autodidacts are welcome.",
+      "Two weeks maximum from apply to reply.",
+      "Apply right here: https://forms.gle/ALgZfzwpZU8UXvxg8"
+    ],
+    "checked": true,
+    "notes": "",
+    "expected": {
+      "company": "Evaboot",
+      "roles": [
+        {
+          "title": "Agentic Python Engineer",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "yes"
+    }
+  },
+  {
+    "post_id": 50338907,
+    "link": "https://news.ycombinator.com/item?id=50338907",
+    "post": [
+      "PostHog | Full-Time | Technical CSMs, SRE, Product Manager, AI Research Engineer | REMOTE (all remote) | Hiring GMT-8 to GMT+2 | PostHog makes your product self-driving.",
+      "* we have a public handbook (posthog.com/handbook) if you want to learn how we work, pay and more in complete detail.",
+      "* we are growing through more autonomy and transparency not through process.",
+      "* we have a ton of scale and a bunch of super interesting technical problems to solve",
+      "* we're building 20 more products over the next couple of years, so you could end up building one of those",
+      "* public compensation calculator! see immediately what you'd get paid",
+      "* we're hiring: ai research engineer, technical customer success managers (americas & emea), finance manager, site reliability engineer, and more.",
+      "https://posthog.com/careers"
+    ],
+    "checked": true,
+    "notes": "PostHog: all remote, but uruguay_allowed came back 'not stated'.",
+    "expected": {
+      "company": "PostHog",
+      "roles": [
+        {
+          "title": "Technical Customer Success Manager",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Site Reliability Engineer",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Product Manager",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "AI Research Engineer",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Finance Manager",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50353464,
+    "link": "https://news.ycombinator.com/item?id=50353464",
+    "post": [
+      "DigiKey | Search Experience Manager | Thief River Falls, MN | Bloomington, MN | Hybrid",
+      "How do you help an electrical engineer find the right part among millions of highly technical, nearly identical components?",
+      "We’re hiring someone to own that problem across search, ranking, filters, discovery, experimentation, and AI/LLMs.",
+      "Electronics + search is a surprisingly deep problem space.",
+      "https://digikey.wd5.myworkdayjobs.com/en-US/Digi-Key/details..."
+    ],
+    "checked": true,
+    "notes": "DigiKey: it mentions AI/LLMs, but the job description is not clear. OK as it is.",
+    "expected": {
+      "company": "DigiKey",
+      "roles": [
+        {
+          "title": "Search Experience Manager",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "hybrid",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50339013,
+    "link": "https://news.ycombinator.com/item?id=50339013",
+    "post": [
+      "MixRank (YC S11) | Software Engineers | 100% Remote (Global) | Full-Time MixRank processes petabytes of data every month through web crawling. Hundreds of customers use our data products, including Google, Amazon, Facebook, Intel, and Adobe, across industries such as finance, recruiting, sales, marketing, and security. We’re a fully remote company with a global footprint across 20+ countries. We’re growing, profitable, employee-owned, and have no dependence on outside funding. Applicants from all geographies and backgrounds are welcome. We’re looking for passionate individuals for whom programming is not just a job, but something they genuinely love to do. We’re obsessed with computers, programming, big data, databases, compilers, hardware, math, data science, and the internet. Does this sound like you? Please apply to join our team. Our codebase is friendly to new contributors. You’ll have a fully functional development environment within hours through full automation and will be pushing commits on your first day. Deployments to production happen multiple times per day and finish in under two minutes.Effectively all of our codebase is written in Python, Rust, SQL, JavaScript/TypeScript, and Nix. The core technologies you’ll need familiarity with to be productive are Python, PostgreSQL, Linux, and Git.",
+      "We operate at a larger scale than typical startups. We run two datacenters with high-performance servers we’ve built ourselves, capable of handling the volumes of data we process. We’ve implemented our own distributed file system, perform full-scale web crawls, and download and run static analysis on the entire universe of published Android APKs and iOS IPAs.",
+      "Unlike a typical startup where you might spend half your time in meetings and the other half fixing Jira tickets, at MixRank you’ll challenge yourself with difficult technical problems that help you grow as an individual. We’re continuously hiring for the positions below; these aren’t singular roles that close once filled. Our philosophy is that the candidate is more important than the position. For each new member of the team, we design a custom role and responsibilities around their interests. Other companies may create a long list of specific requirements with the expectation that you’ll exactly replace someone on the team or fit a role defined by committee. MixRank is more pragmatic: we first get excited about bringing a unique individual onto the team, then figure out the best way to support their specific talents.",
+      "Junior Software Engineer - Remote (Global), Full-Time",
+      "We’re looking for remote junior engineers with 0–3 years of professional software experience and 5+ years of curiosity exploring computers, programming, and technical hobby projects.",
+      "This is an open-ended entry role with mentorship and diverse opportunities to work across all areas of our product: databases, distributed systems, infrastructure and tooling, data analysis, machine learning, frontend/backend web development, APIs, data mining, data modeling, and more.",
+      "To stand out, please highlight what makes you unique: passion for computing, curiosity and side projects, work ethic, niche research, or anything else that shows how you think and build.",
+      "Ideally, you’ve already graduated. But if you still have one or more years left of school, please feel free to apply anyway. If you’re the right fit for the team, we’ll figure out a way to accommodate your schedule.",
+      "Apply here: https://www.ycombinator.com/companies/mixrank/jobs/Fnwsojk-j",
+      "Software Engineer - Remote (Global), Full-Time",
+      "We’re hiring generalist software engineers to work on web applications, data mining, machine learning/data science, data transformation/ETL, data modeling, database scaling, infrastructure, DevOps, and more. We’ll tailor the role to the subset of areas that best match your interests.",
+      "Beneficial experience includes PostgreSQL, Python, Rust, Linux, TypeScript, Nix, frontend/backend web development, and data mining.",
+      "Apply here: https://www.ycombinator.com/companies/mixrank/jobs/RXQspen-s",
+      "I’m Kiran, Chief of Staff at MixRank, a fully remote data startup building go-to-market intelligence. We’re US-incorporated but hire globally, and we’re bringing on new teammates to join a fast-moving team with real ownership and impact."
+    ],
+    "checked": true,
+    "notes": "MixRank: is_fde_or_ai should be true (Haiku said false). Remote global, Uruguay yes: a missed match.",
+    "expected": {
+      "company": "MixRank",
+      "roles": [
+        {
+          "title": "Junior Software Engineer - Remote (Global), Full-Time",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Software Engineer - Remote (Global), Full-Time",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "yes"
+    }
+  },
+  {
+    "post_id": 50349005,
+    "link": "https://news.ycombinator.com/item?id=50349005",
+    "post": [
+      "Diffusion | All | SF Bay (Redwood City) | On site (office!), full-time",
+      "Justin here, founder @ Diffusion. Formerly co-founder & CTO @ StrongDM.",
+      "We're finding the steepest gradients in the economy between model capability and deployed practice. A large part of that work is currently related to software factory construction.",
+      "All career stages welcome (including new grads). We are particularly interested in:",
+      "* Current/former founders",
+      "* High consequence / high criticality technical backgrounds",
+      "* Top decile communicators (writing, speech, video) who also make computer go brrr",
+      "Roles:",
+      "AI Eng - Factory Architect, AI Eng - Commercial, AI Eng - Compounding Leverage, Applied AI Researcher",
+      "Please expect satisfying, dignifying intensity.",
+      "Email hello@diffusion.io"
+    ],
+    "checked": true,
+    "notes": "",
+    "expected": {
+      "company": "Diffusion",
+      "roles": [
+        {
+          "title": "AI Eng - Factory Architect",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "AI Eng - Commercial",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "AI Eng - Compounding Leverage",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Applied AI Researcher",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "no",
+      "uruguay_allowed": "not stated"
+    }
+  }
+]
