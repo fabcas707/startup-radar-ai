@@ -11,3 +11,6 @@ Status (30/10/2026): setup. The brief (who it's for, the 5 questions, the source
 | Folder | What |
 |---|---|
 | `notes/` | Course notes: what each module taught and what I'd use here |
+
+## Limits
+- HN "Who is hiring?" source might have multiple roles in one post, but remote, location and pay are stored once per post.
