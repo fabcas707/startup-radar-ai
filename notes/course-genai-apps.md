@@ -19,3 +19,11 @@ For each module, 3–5 lines: what it taught, and what I'd use in this project.
 **What I'd use.** The LLM, for conversations with customers, if I accept the risk of the model hallucinating. I also enjoyed developing a server program (`app.py`) and a real-world setup: client, server, server program, chatbot.
 
 **Doubt.** Is an LLM like this worth the risk for companies, on the customer experience side? Answer: a model this small, no; a large LLM with guardrails, yes, and many companies already use one. The known failures: Air Canada's chatbot invented a refund policy and a tribunal made the airline honour it (2024); a Chevrolet dealer's bot agreed to sell a car for USD 1 (2023); DPD's bot swore at a customer (2024). Klarna said its assistant did the work of 700 agents (2024), then hired humans again because quality dropped (2025). What makes it safe enough: a large model, answers grounded in the company's own documents (RAG), a narrow scope, a hand-off to a human when it isn't sure, no promises or payments without a check, and tests and logs of real conversations. That list is most of an FDE's job on a customer-service project.
+
+## Module 3: voice assistant
+
+**What it taught.** How to build a voice assistant; in a more general way, it introduced the deep neural networks that process audio to transcribe spoken words and vice versa: the STT and TTS processes. I also learned about Docker: an open platform that lets you work in isolated workspaces called "containers".
+
+**What I'd use.** I don't like the particular models we used, since they are outdated, but I liked the possibility of talking with an assistant instead of writing. I don't have an application for this right now. (Later the same day I set up Piper, a local TTS voice, to read Claude Code's replies aloud.)
+
+**Doubt.** How important is it for an FDE to understand the different ways we can use AI, and which application should I focus on? Answer: breadth at the level of "what's possible, what it costs and what can go wrong" across text, voice and images, since clients ask for all three. Depth in text LLMs (extraction, RAG, agents, evals), which is what FDE and applied AI openings ask for. Voice is mostly a front end on top of the same LLM (STT → LLM → TTS), so knowing how those pieces fit together is enough for now.
