@@ -534,5 +534,425 @@
       "remote": "no",
       "uruguay_allowed": "not stated"
     }
+  },
+  {
+    "post_id": 50347217,
+    "link": "https://news.ycombinator.com/item?id=50347217",
+    "post": [
+      "Reddit | Senior and Staff Full-stack Engineers | REMOTE(US) | Full Time",
+      "Reddit's Developer Platform team (my team) is hiring! Come work with us on interesting scale and infrastructure problems, developer experience, and coming up with creative ways to let 3p devs modify Reddit. It's a fun team with a lot of autonomy, collaborative people, and a great product with a lot of places it can go.",
+      "This listing is for our Staff role, but drop me a note at andrew.gunsch@reddit.com because we're hiring for other levels as well and I'll get ya routed. https://job-boards.greenhouse.io/reddit/jobs/8180636"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "Reddit",
+      "roles": [
+        {
+          "title": "Senior and Staff Full-stack Engineers (listing is for Staff role; other levels also hiring)",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "no"
+    }
+  },
+  {
+    "post_id": 50342430,
+    "link": "https://news.ycombinator.com/item?id=50342430",
+    "post": [
+      "Sudowrite | https://sudowrite.com | √ REMOTE (US) | √ PMF | √ PROFITABLE | Full-Time",
+      "Kind, smart, low-drama people, seeking the same to help make writing tools authors dream about.",
+      "Our users have published thousands of books using Sudowrite, and we're building a sustainable company, not chasing unrealistic growth targets set by VCs.",
+      "* We help the next generation of storytellers tell better stories.",
+      "* We believe the future of writing is AI & human collaboration.",
+      "* Co-founders both had prior exits.",
+      "—————————————————————",
+      "Hiring: Senior Mobile Developer",
+      "* Build imaginative tools that help writers turn ideas into stories.",
+      "* Work across the stack: from expressive, responsive interfaces and text editing to the systems and AI infrastructure behind them.",
+      "* You should have: Great taste and product sense, lots of agency, strong React and backend experience, and a sense of humor, adventure, and hope.",
+      "* Comp: $160K–$180K, equity, 401(k), profit sharing, retreats, and unlimited books.",
+      "APPLY MOBILE: https://sudowrite.com/jobs/mobile"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "Sudowrite",
+      "roles": [
+        {
+          "title": "Senior Mobile Developer",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "no"
+    }
+  },
+  {
+    "post_id": 50349000,
+    "link": "https://news.ycombinator.com/item?id=50349000",
+    "post": [
+      "Blockrotate| Senior Systems / Rust Engineer | Remote (US/EU timezones preferred) | Full-time | $130k - $170k + Equity",
+      "Blockrotate (https://blockrotate.com) builds low-latency copy-trading and execution infrastructure for Polymarket and prediction markets.",
+      "Copy trading on prediction markets has strange market microstructure. Unlike deep perp DEXes (Binance, Hyperliquid), Polymarket orderbooks are bounded, often thin, and subject to severe adverse selection. When a high-volume leader buys, the book moves immediately. If followers lag by a few hundred milliseconds, or if a platform taxes every order with a 50bps fee, follower alpha drops to zero.",
+      "Most existing tools in this space either hit users with high per-trade taker fees or ask them to export and paste their master private key into a database. We took a different approach: isolated per-bot deposit wallets (non-custodial via EIP-1967/1271 proxies) and co-located autonomous Rust workers running delta-sync loops directly against the Polymarket CLOB.",
+      "Stack:",
+      "- Backend: Rust, Tokio, Axum, Protobuf over WebSockets, SQLite (WAL mode)",
+      "- Trading Engine: Custom Polymarket CLOB & Data API clients, EIP-712 signing, dynamic slippage ladders, momentum filters, circuit breakers",
+      "- Frontend: Next.js 16, React 19, TypeScript, Tailwind CSS",
+      "What you’d actually work on:",
+      "- Squeezing latency out of the execution hot path (delta position calculation, order placement, nonce handling, fill verification).",
+      "- Building better execution protection: momentum filters to dodge toxic order flow, fill stabilization windows, and handling thin book liquidity without moving the market against yourself.",
+      "- Scaling worker orchestration: our C2 server talks Protobuf to distributed bot workers with monotonic sequence IDs and autonomous reconnect failover. As bot volume scales, we need to keep state reconciliation bulletproof.",
+      "- Investigating and exploiting prediction market quirks (rebate structures, orderbook snapshotting, MEV/relayer bottlenecks).",
+      "What we look for:",
+      "- Strong async Rust experience (Tokio, concurrency, practical memory management).",
+      "- Experience dealing with websockets, exchange orderbooks, or trading infrastructure",
+      "shoot an email to jobs@blockrotate.com and tell us why you would be a good fit for us."
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Uruguay changed to yes: 'Remote (US/EU timezones preferred)', and Uruguay is in a US-friendly time zone.",
+    "expected": {
+      "company": "Blockrotate",
+      "roles": [
+        {
+          "title": "Senior Systems / Rust Engineer",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "yes"
+    }
+  },
+  {
+    "post_id": 50344410,
+    "link": "https://news.ycombinator.com/item?id=50344410",
+    "post": [
+      "Vivral (Nair Engineering) | ML, Systems (GPU), Hardware, and Embedded Engineers | Gainesville, FL (UF students) | Part-time | Equity",
+      "Vivral is an AI health assistant that helps people understand their health. We run frontier-grade medical AI on ordinary computers instead of the cloud, so health support can reach remote, underserved communities. Already tested by researchers at UF, Michigan, and Princeton.",
+      "We're hiring part-time student engineers (sophomores through PhD): Machine Learning (PyTorch, LLMs), Systems (CUDA/Triton, making large models run fast on everyday hardware), Hardware (FPGA, digital design), and Embedded (C/C++ firmware). Roles are built around class schedules and come with equity that vests over time.",
+      "Apply (10 minutes): https://forms.gle/PrewX9oGEj7fCMR46\nMore: nairengineering.com"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "Vivral (Nair Engineering)",
+      "roles": [
+        {
+          "title": "Machine Learning Engineer (PyTorch, LLMs)",
+          "is_fde_or_ai": true
+        },
+        {
+          "title": "Systems Engineer (GPU, CUDA/Triton)",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Hardware Engineer (FPGA, digital design)",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Embedded Engineer (C/C++ firmware)",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "not stated",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50341824,
+    "link": "https://news.ycombinator.com/item?id=50341824",
+    "post": [
+      "eventfirst | Senior Full-Stack Engineer | Berlin, Germany | REMOTE (CET) | Full-time | eventfirst.com",
+      "We are applying AI to organize corporate events.",
+      "We are looking for a senior engineer with at least ten years of full stack experience, a strong focus on product and UX, and some experience building an AI chat based product.",
+      "Our tech stack is Typescript, React, Next.js and Tailwind. On the backend we use Drizzle with Neon, deployed and monitored via Vercel. Agents and background jobs are executed via trigger.dev. This gives us a killer DX because the entire tech stack supports preview branching. This allows coding agents to work in parallel on different features and verify their work independently very close to what will run in prod. CI is fast (2-3 min) and coverage is good enough to deploy to prod many times per day.",
+      "Please note that we are working remotely in the CET timezone. Having some remote experience is a plus.",
+      "We have pre-seed funding from a major US VC and are experienced founders. You’ll be working alongside the founders (ex-Apple, ex-Airbnb, ex-Tulip, ex-Tourlane) and will have a chance to shape the company, product and of course the engineering culture.",
+      "Apply here: https://eventfirst.jobs.personio.com/job/2870690?_pc=3355738"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right: it is an AI role. But it asks for a Senior Full-Stack Engineer with 10+ years, so it is a false positive for me. The match rule doesn't check seniority.",
+    "expected": {
+      "company": "eventfirst",
+      "roles": [
+        {
+          "title": "Senior Full-Stack Engineer",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50346665,
+    "link": "https://news.ycombinator.com/item?id=50346665",
+    "post": [
+      "Telescope Partners | Software Engineer & Data Scientist | Remote - AMERICAS ONLY | Full-time",
+      "Telescope is an early stage growth VC firm with a focus on enterprise software companies. We're a small, efficient team based in SF. We're active investors, working closely with entrepreneurs to help their companies grow. Our tech team is oriented at improving investment decision-making using data, building valuable tools for portcos, and automating investor tasks using agents.",
+      "If you're interested in PE, agents, and data science, then this might be a good role for you!",
+      "We’re looking for someone with 3-10 years of experience.",
+      "To apply email mike at telescopepartners.com"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "Telescope Partners",
+      "roles": [
+        {
+          "title": "Software Engineer & Data Scientist",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "yes"
+    }
+  },
+  {
+    "post_id": 50339225,
+    "link": "https://news.ycombinator.com/item?id=50339225",
+    "post": [
+      "FutureSearch | Multiple senior roles | REMOTE (London, SF) | Full-time | $130k–$250k + equity | https://futuresearch.ai",
+      "FutureSearch builds AI that predicts the future. You can see our public track record on our site. We launched the FutureSearch product this August. We also publish benchmarks and datasets, and do work for frontier AI labs.",
+      "I'm the CEO, previously CTO of Metaculus and creator of Google's current internal prediction market. FutureSearch is about ten people, remote-first and concentrated in London.",
+      "We're hiring (US pay, adjusted to the local market elsewhere):",
+      "- Chief Operating Officer, $180–250k\n- Director of Partnerships, $160–240k\n- Director of Strategic Projects, $140–220k\n- Head of Product, $160–240k\n- Program Manager, Research, $130–190k\n- Research Scientist, $160–250k",
+      "See the jobs and apply at https://futuresearch.ai/careers/"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "FutureSearch",
+      "roles": [
+        {
+          "title": "Chief Operating Officer",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Director of Partnerships",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Director of Strategic Projects",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Head of Product",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Program Manager, Research",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Research Scientist",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50352937,
+    "link": "https://news.ycombinator.com/item?id=50352937",
+    "post": [
+      "TheraPlug | Founding CTO / Technical Lead | Detroit preferred; remote considered | Equity-first, pre-funding",
+      "I’m Marcelus Brice, founder of TheraPlug (https://theraplug.health). We’re building a behavioral health platform focused on making it easier for patients to find appropriate therapists and access care through insurance, starting in Detroit.",
+      "We’re looking for a hands-on technical leader who can build alongside a lean team and help recruit its founding engineers. You don’t need a previous CTO title, but you should have shipped and operated production software.",
+      "The product will support iOS, Android and responsive web, including:",
+      "• Patient and provider onboarding, scheduling and secure messaging.\n• AI-assisted therapist matching based on clinical needs, preferences, insurance and availability.\n• Provider credential verification and payer enrollment workflows.\n• Insurance eligibility checks and estimated patient costs.\n• Secure video sessions and clinician-reviewed AI documentation.",
+      "Relevant experience includes full-stack development, mobile apps, healthcare integrations, sensitive-data security and practical AI implementation. We value clear architecture, accessible design and thoughtful use of established services.",
+      "Compensation: We are pre-funding and cannot offer an immediate cash salary. We’re seeking someone interested in an equity-first founding role, with a planned transition to salary when funding supports payroll. Equity, responsibilities, time commitment and compensation triggers would be agreed in writing before work begins. Funding timing is not guaranteed.",
+      "To start a conversation, email marcelus@theraplug.health with:\n• Products you’ve built and your specific contribution.\n• Relevant healthcare, security or AI experience.\n• Your location and realistic availability before funding.\n• Your interest in leading and assembling a small development team.",
+      "I can share the detailed product scope and team requirements."
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "TheraPlug",
+      "roles": [
+        {
+          "title": "Founding CTO / Technical Lead",
+          "is_fde_or_ai": true
+        }
+      ],
+      "remote": "not stated",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50345025,
+    "link": "https://news.ycombinator.com/item?id=50345025",
+    "post": [
+      "Railway | Senior Growth Marketer, Senior Product Marketer, Account Executive, Scale, Senior Product Eng (full-stack) | REMOTE (Worldwide) | https://railway.com/careers",
+      "Do you feel scared and alone when opening the AWS console? Do you wish you could just tell Claude to manage your infra, and it would just work? Do you dream of a future where software is abundant and developers and normies alike are free to build their wildest dreams?",
+      "We're Railway, and we think infrastructure can be better. We're working at the forefront distributed systems engineering, interface design, and agentic computing to bring about the infrastructure platform we've always wanted. So far we've built out a platform loved by 4M+ users and we're just getting started.",
+      "Fair warning! The problems are complex: racking and stacking servers, home-rolled hypervisors, cut-above container orchestration, over/under/whateverlay networks, virtio device drivers, edge proxies, IAM that doesn't suck, kitchen sinks - we need to build it and we're looking for likeminded individuals who think this stuff is fun.",
+      "Four open roles (apply below!):",
+      "+Senior Growth Marketer:\n-Apply here: (https://railway.com/careers/growth-marketer)",
+      "+Senior Product Marketer:\n-Apply here: (https://railway.com/careers/product-marketer)",
+      "+Account Executive, Scale\n-Apply here: (https://railway.com/careers/account-executive-scale)",
+      "+Senior Product Engineer (full-stack): \n-Apply here: (https://railway.com/careers/full-stack)"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "Railway",
+      "roles": [
+        {
+          "title": "Senior Growth Marketer",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Senior Product Marketer",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Account Executive, Scale",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Senior Product Engineer (full-stack)",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "yes"
+    }
+  },
+  {
+    "post_id": 50341026,
+    "link": "https://news.ycombinator.com/item?id=50341026",
+    "post": [
+      "Paradromics | Embedded Software Engineer | Austin, TX or Oakland, CA | Onsite | Full-time",
+      "Paradromics is building a high bandwidth brain-machine interface for clinical use. The implant we built is restoring function to patients by streaming out neural data from specific brain regions in real time, which we convert to e.g. speech using machine learning. Check out our recent article in the NYT: https://archive.ph/C6CRb .",
+      "We're looking for help in further developing and hardening our embedded Linux components, which work in tandem with FPGAs and our custom ASICs to read out neural data. Some of the ongoing efforts are: HIL testing on real devices, integrating new sensor ASICs, maintaining our Yocto build system, exploratory work on prototypes, improving our clinical UX, and improving the core code that receives and massages data. The code is largely written in Rust with a little Typescript, (and bash, and bitbake recipes, etc).",
+      "You'll be expected to have experience constructing reliable and understandable software in Linux, and some level of experience in building and interacting with embedded hardware. Rust experience is ideal but not necessary. We're not looking for a specific number of YoE, but for motivated and hungry engineers who want to push the frontier of brain-machine interfaces.",
+      "To apply visit https://paradromicsinc.applytojob.com/apply/u5hXN4N9ID/Embed... or email your resume and a little about yourself to me, ehuber@paradromics.com . I'll be glad to hear from you!"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "Paradromics",
+      "roles": [
+        {
+          "title": "Embedded Software Engineer",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "no",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50349443,
+    "link": "https://news.ycombinator.com/item?id=50349443",
+    "post": [
+      "telli (YF F24) - customer-facing agents - is hiring in Berlin (Eng, GTM, Design) - https://www.telli.com/careers"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "telli (YF F24)",
+      "roles": [
+        {
+          "title": "Engineering",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "GTM",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Design",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "not stated",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50355834,
+    "link": "https://news.ycombinator.com/item?id=50355834",
+    "post": [
+      "Tether | Product Engineering Lead, Keet | REMOTE (Worldwide)\nWe're looking for a Product Engineering Lead to help build and scale Keet, a fully peer-to-peer messaging and video calling app.\nYou'll lead API and frontend engineering teams, working closely with Product to turn the roadmap into high-quality features.\nWe're looking for someone with:\n- Experience leading engineering teams building consumer products.\n- Strong JavaScript and React skills.\n- Solid product sense and technical leadership.\n- Understanding of distributed, local-first or P2P systems.\nApply: https://tether.recruitee.com/o/product-engineering-lead-keet..."
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "Tether",
+      "roles": [
+        {
+          "title": "Product Engineering Lead, Keet",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "yes"
+    }
+  },
+  {
+    "post_id": 50344646,
+    "link": "https://news.ycombinator.com/item?id=50344646",
+    "post": [
+      "FusionAuth | Senior/Staff Java Engineers, Account Executive | Varies between REMOTE (in Europe but only for the account exec position) and ONSITE in Denver, CO, USA, details in each job desc | Salary ranges for the Java Engineers range from 140k-230k, but the Euro positions don't have them :(",
+      "At FusionAuth, our mission is to make authentication and authorization simple and secure for every developer building web and mobile applications. We want devs to stop worrying about auth and focus on building something awesome.",
+      "There are a lot of companies in the auth space, but we feel like we have something special:",
+      "* a relatively unique deployment model (self-host on-prem, run in your cloud or let us operate it for you in ours)",
+      "* A well designed API first approach; one customer compared our APIs to petrichor",
+      "* a mature product (the code base is nine+ years old and we've found and fixed a lot of the sharp edges around core login use cases, but don't worry, there are plenty more features to add)",
+      "* a full featured free-as-in-beer version which makes the sales cycle easier; prospects often come in having prototyped an integration",
+      "Our core software is commercial. We open source much of our supporting infrastructure. Technologies and standards that you will work with: modern Java, PostgreSQL, Docker, Kubernetes, MySQL, OAuth, SAML, OIDC.",
+      "Learn more, including benefits and salaries, and apply here: https://fusionauth.io/careers/ ( Click/tap the 'View open positions' orange button. )"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Remote only for the Account Executive (Europe), onsite in Denver for the others, so hybrid is a good guess.",
+    "expected": {
+      "company": "FusionAuth",
+      "roles": [
+        {
+          "title": "Senior Java Engineer",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Staff Java Engineer",
+          "is_fde_or_ai": false
+        },
+        {
+          "title": "Account Executive",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "hybrid",
+      "uruguay_allowed": "not stated"
+    }
+  },
+  {
+    "post_id": 50350397,
+    "link": "https://news.ycombinator.com/item?id=50350397",
+    "post": [
+      "Enclave | Technical Content & Community Lead | REMOTE (UK) | Full-time | £70k + share options",
+      "Enclave is a Zero Trust Network Access platform built specifically for MSPs. We're hiring our first dedicated GTM person to help us become better known and understood among MSP engineers and technical leaders.",
+      "It's a hands-on role spanning technical content, community participation, partner enablement, demos, and improving how Enclave shows up across the web, search and AI.",
+      "We're looking for someone with strong networking/infrastructure knowledge and experience of the MSP world.",
+      "More information/to apply: https://enclave.io/careers/technical-content-community-lead/"
+    ],
+    "checked": true,
+    "notes": "Checked 12/11. Haiku was right.",
+    "expected": {
+      "company": "Enclave",
+      "roles": [
+        {
+          "title": "Technical Content & Community Lead",
+          "is_fde_or_ai": false
+        }
+      ],
+      "remote": "yes",
+      "uruguay_allowed": "not stated"
+    }
   }
 ]
