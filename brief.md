@@ -2,23 +2,23 @@
 
 ## The client
 
-**Me, first.** I'm a data engineer in Uruguay. I'm looking for FDE and applied AI roles, and I'm thinking about starting a company. Today I don't follow the startup market: I don't have the time, I don't know where to look, and I keep no record.
+**The first user: a data engineer in Latin America** who wants to move into FDE or applied AI work and is curious about startups. They don't follow the startup market: no time, no idea where to look, and no record.
 
 **Later:** anyone who follows startups to find a job or a business idea, such as developers, job seekers and early founders.
 
 ## The problem
 
-Startup news is spread across many places: funding news, job posts, company directories and trend reports. Following it by hand takes hours every week. I need one place that answers a few questions in minutes, with sources.
+Startup news is spread across many places: funding news, job posts, company directories and trend reports. Following it by hand takes hours every week. They need one place that answers a few questions in minutes, with sources.
 
-**How I'll use it:** every Monday, for 15 minutes. I read the answers and pick 1–2 startups to apply to or to study.
+**How it's used:** every Monday, for 15 minutes: read the answers and pick 1–2 startups to apply to or to study.
 
 ## The 5 questions
 
-Ordered by how much I need them.
+Ordered by how much the user needs them.
 
-### 1. Which startups are hiring someone like me?
+### 1. Which startups are hiring for the user's profile?
 
-Startups with open FDE, applied AI engineer or AI data engineer roles that are open from Uruguay or remote.
+Startups with open FDE, applied AI engineer or AI data engineer roles that are open from the user's country (Uruguay in this version) or remote.
 
 **A good answer:** a list of openings from the last 30 days, each with the company, the role, where it can be done from, the date posted and a link. It says when a posting excludes Uruguay, or doesn't say.
 
@@ -29,7 +29,7 @@ Startups with open FDE, applied AI engineer or AI data engineer roles that are o
 
 ### 2. Which startups stood out this week or month?
 
-The top 3, ranked by a score. A startup gets points for the size of a funding round, a new product launch, an acquisition, and fitting my targets (AI, hiring FDEs). The answer shows the score, so I can see why one ranks above another.
+The top 3, ranked by a score. A startup gets points for the size of a funding round, a new product launch, an acquisition, and fitting the user's targets (AI, hiring FDEs). The answer shows the score, so the user can see why one ranks above another.
 
 **A good answer:** for each startup, what it does in one line, the event (the amount, the round, the date), why it matters, and the source.
 
@@ -70,7 +70,7 @@ Background that changes slowly: the stages of a startup (pre-seed, seed, Series 
 - **Sources:** a link and a date for every fact.
 - **Freshness:** the period it covers, and when the data was last updated.
 - **Honesty:** "I don't know" or "no data" instead of a guess. No made-up figures.
-- **Length:** I can read it in 2 minutes.
+- **Length:** it can be read in 2 minutes.
 
 ## Out of scope, for now
 
@@ -90,7 +90,7 @@ Background that changes slowly: the stages of a startup (pre-seed, seed, Series 
 | Greenhouse job boards | https://developers.greenhouse.io/job-board.html | All the openings of one company, structured | Public API, no key. Needs each company's board name |
 | Lever job boards | https://github.com/lever/postings-api | Same, with a remote / hybrid / on-site field | Public API, no key |
 | Ashby job boards | https://developers.ashbyhq.com/docs/public-job-posting-api | Same, often with the pay | Public API, no key. Popular with new AI startups |
-| YC Work at a Startup | https://www.workatastartup.com/ | Openings at YC startups | Login, no API: for my own job search, not for the radar |
+| YC Work at a Startup | https://www.workatastartup.com/ | Openings at YC startups | Login, no API: not usable by the radar |
 
 How they work together: HN (and later YC and the funding news) says which startups to look at; the ATS boards give everything each one is hiring for.
 

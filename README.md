@@ -1,16 +1,16 @@
 # Startup Radar AI
 
-A **startup radar**: an AI assistant that answers "Which AI startups raised money recently, what do they do, and are they hiring someone like me?", from public sources (Hacker News "Who is hiring?", SEC Form D filings, the Y Combinator directory) and free trend reports. Built like a client case: a problem, the solution, and measured results. The first slice of a bigger idea: a market radar for investment, startup ideas and job openings.
+A **startup radar**: an AI assistant that answers "Which AI startups raised money recently, what do they do, and are they hiring for a given profile?", from public sources (Hacker News "Who is hiring?", SEC Form D filings, the Y Combinator directory) and free trend reports. Built like a client case: a problem, the solution, and measured results. The first slice of a bigger idea: a market radar for investment, startup ideas and job openings.
 
-It's my learning project for forward-deployed engineer and applied AI engineer roles: LLMs, RAG, agents, evaluation and deployment. The client, the problem and the 5 questions it must answer are in `brief.md`. The plan and the dates are in "Learning and project roadmap" in `../plan.md`.
+It's my learning project for building LLM applications end to end: LLMs, RAG, agents, evaluation and deployment. The client, the problem and the 5 questions it must answer are in `brief.md`.
 
-Status (12/11/2026): the first piece, the **HN job matcher**, works and is measured. It answers question 1 of the brief: "Which startups are hiring someone like me?"
+Status (12/11/2026): the first piece, the **HN job matcher**, works and is measured. It answers question 1 of the brief: "Which startups are hiring for the user's profile?"
 
 ## The HN job matcher
 
-**The problem:** the monthly Hacker News "Who is hiring?" thread has about 175 job posts, written as free text. Reading all of them to find the few that fit me takes hours.
+**The problem:** the monthly Hacker News "Who is hiring?" thread has about 175 job posts, written as free text. Reading all of them to find the few that fit takes hours.
 
-**The solution:** a script downloads the thread, Claude Haiku reads each post and returns the same fields for every one (company, roles, remote policy, whether Uruguay is allowed, pay), and a simple rule keeps the posts that fit me: at least one forward-deployed or AI role, remote, and Uruguay allowed or not stated.
+**The solution:** a script downloads the thread, Claude Haiku reads each post and returns the same fields for every one (company, roles, remote policy, whether Uruguay is allowed, pay), and a simple rule keeps the posts that fit the user's profile: at least one forward-deployed or AI role, remote, and Uruguay allowed or not stated.
 
 **The result:** on the November 2026 thread, 23 matches out of 175 posts, in a few minutes and for a few cents.
 
@@ -54,7 +54,7 @@ On 3/11, with the first 15 posts, precision and recall were both 80 %. A first v
 
 - **The test set leans toward Haiku.** Its answers were prefilled from Haiku and then corrected, and 6 of the new posts were chosen because Haiku had marked them as matches. Both push the scores up.
 - **"Remote (US)" is the weak spot.** Haiku often reads it as "Uruguay not stated", which lets US-only posts through as matches.
-- **No seniority filter.** The rule checks the role, remote and Uruguay, but not years of experience. eventfirst (10+ years) counts as a right match but doesn't fit me; counted my way, precision on the test set is 80 %.
+- **No seniority filter.** The rule checks the role, remote and Uruguay, but not years of experience. eventfirst (10+ years) counts as a right match but doesn't fit the profile; counted that way, precision on the test set is 80 %.
 - **Role titles aren't scored**, because they're free text. Only "has an FDE or AI role" is checked.
 - **One post can list several roles, but remote, location and pay are stored once per post.** FusionAuth is remote for one role and onsite for the others, so it's stored as "hybrid".
 - **One thread, one model.** All the numbers are for the November 2026 thread and Claude Haiku 5.5.
