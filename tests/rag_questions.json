@@ -1,0 +1,9 @@
+[
+  {"id": 1, "question": "What information is contained in the State of AI Report 2026?", "type": "answerable", "page": 4},
+  {"id": 2, "question": "What model is the most intelligent? Give a model for the open-weight models and another for the closed models.", "type": "answerable", "page": 6},
+  {"id": 3, "question": "Can a model avoid its harness?", "type": "answerable", "page": 15},
+  {"id": 4, "question": "How are robots trained?", "type": "answerable", "page": 57},
+  {"id": 5, "question": "Is there any model capable of running an online store on its own and earning money in the medium or long term?", "type": "answerable (found in step 4)", "page": 46},
+  {"id": 6, "question": "What does harness mean?", "type": "answerable (found in step 4)", "page": 203},
+  {"id": 7, "question": "How many AI companies are based in Uruguay?", "type": "not in the report", "page": null}
+]

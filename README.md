@@ -59,11 +59,43 @@ On 3/11, with the first 15 posts, precision and recall were both 80 %. A first v
 - **One post can list several roles, but remote, location and pay are stored once per post.** FusionAuth is remote for one role and onsite for the others, so it's stored as "hybrid".
 - **One thread, one model.** All the numbers are for the November 2026 thread and Claude Haiku 5.5.
 
+## The small RAG (first version, 15/11/2026)
+
+The first piece for question 5 of the brief ("What do the reports say…?"): questions about one report, the State of AI Report 2026 (244 pages), answered only from the report, with the page of every source.
+
+**How it works:**
+
+1. `src/rag_index.py` reads the PDF page by page, removes the text printed on every slide (the navigation bar, the footer, the slide number), and cuts each page into chunks of at most 200 tokens, counted with the embedding model's own tokenizer, with 30 tokens of overlap. The section name ("Section 1: Research") goes in front of each chunk. The embedding model (`all-MiniLM-L6-v2`, run locally) reads at most 256 tokens, so the script stops if any chunk is longer: nothing is cut. Result: 331 chunks.
+2. `src/rag_ask.py` embeds the question, takes the 5 closest chunks by cosine similarity (a dot product in numpy, no vector database yet), and gives them to Claude as numbered sources, with three rules: use only the sources, cite one after each sentence, and say "the excerpts don't answer this" when they don't.
+
+**Results on 7 questions** (`tests/rag_questions.json`). Each answer scored by hand from 1 to 10, then reviewed: a good answer has to be both supported by its sources and useful.
+
+| # | Question | Expected page in the top 5? | Answer |
+|---|---|---|---|
+| 1 | What's in the report? (asked as "What's in the report?") | No (page 4); the welcome slide (page 3) came 5th | Haiku 6/10: every claim is supported, but it describes 4 unrelated chunks as if they were the report's sections |
+| 2 | The most intelligent model, open-weight and closed | Yes, 2nd | Opus 10/10: the closed leader with its score, and it says the excerpts only name China's best open-weight model |
+| 3 | Can a model avoid its harness? | Yes, 1st | Haiku 8/10, Opus 7/10: both said the excerpts don't answer it, though page 15 does ("stronger models can outgrow their harnesses"). Haiku then answered well, one citation per sentence; Opus put everything in one sentence with the citations at the end |
+| 4 | How are robots trained? | Yes, 2nd | Opus 10/10: four methods, each cited |
+| 5 | A model that runs an online store and earns money | Yes (page 46), 2nd | Haiku 10/10: "partly, in a simulation", with the numbers and the limits |
+| 6 | What does harness mean? | Yes (page 203), 2nd | Haiku 10/10: the report's own definition |
+| 7 | AI companies in Uruguay (not in the report) | Not applicable | Haiku 10/10: it said the excerpts don't answer it, and what they cover instead |
+
+Retrieval found the expected page for 5 of 6 questions. I checked the cited facts against their chunks (17 numbers and names): all were there, so no answer made anything up.
+
+**What it showed:**
+
+- **Similarity scores can't detect "not in the report".** The retriever always returns 5 chunks, and question 7 got a higher top score (0.55) than question 3's right chunk (0.49). The grounding rule in the prompt is what caught it.
+- **Overview questions don't fit top-5 retrieval.** "What's in the report?" needs the summary page, not the 5 chunks closest to the words of the question. The wording matters too: the longer "What information is contained in the State of AI Report 2026?" put the welcome slide 1st (0.74); "What's in the report?" put it 5th.
+- **The abstention rule can be too strict.** On question 3 both models said "the excerpts don't answer this" when the answer was there in other words. A vague question needs a partial answer, not a refusal.
+
+**Known limits:** 7 questions, written and scored by me; one report; each answer run once per model; no vector database, which is fine for hundreds of chunks, not millions. Next, by 29/11: 3–4 reports, a bigger test set, Chroma or pgvector, and hybrid search.
+
 ## Folders
 
 | Folder | What |
 |---|---|
-| `src/` | The 4 steps of the HN job matcher, and `add_tests.py` |
-| `tests/` | `expected.json`: the hand-checked test set |
-| `data/raw/` | The downloaded thread and the model's answers (not committed) |
+| `src/` | The 4 steps of the HN job matcher, `add_tests.py`, and the small RAG (`rag_index.py`, `rag_ask.py`) |
+| `tests/` | `expected.json`: the hand-checked test set of the job matcher; `rag_questions.json`: the RAG's 7 questions |
+| `data/raw/` | The downloaded thread, the model's answers and the report PDF (not committed) |
+| `data/rag/` | The RAG's chunks and vectors (not committed: the text is the report's) |
 | `notes/` | Course notes: what each module taught and what I'd use here |

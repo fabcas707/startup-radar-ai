@@ -12,5 +12,6 @@ __pycache__/
 
 # Data downloads and local databases
 data/raw/
+data/rag/
 *.duckdb
 *.duckdb.wal
